@@ -1,0 +1,13 @@
+先安装wincap。
+在解压jpcap目录，在lib文件夹下有jpcap0.6的两个重要文件jpcap.jar和jpcap.dll，将jpcap.dll分别（一定）
+要拷贝到C:\Program?
+Files\Java\jre6\bin和C:\Program?Files\Java\jdk16\bin下，
+然后再将jpcap.jar拷贝到C:\Program?Files\Java\jdk16\lib\ext\下 
+ 
+Eclipse，在工程上点击右键，有build?
+path--->configure?build?path,在Libraries选项卡中，
+点击”add?external?jars“,选择刚才路径jpcap.jar路径（C:\Program?Files\Java\jdk16\lib\ext\jpcap.jar）
+一直确定后，回到myEclipse主界面即可。
+
+
+//******************************//
